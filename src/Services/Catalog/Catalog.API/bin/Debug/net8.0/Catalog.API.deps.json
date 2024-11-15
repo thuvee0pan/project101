@@ -9,7 +9,8 @@
       "Catalog.API/1.0.0": {
         "dependencies": {
           "BuildingBlocks": "1.0.0",
-          "Carter": "8.2.1"
+          "Carter": "8.2.1",
+          "Marten": "7.31.0"
         },
         "runtime": {
           "Catalog.API.dll": {}
@@ -120,7 +121,7 @@
           }
         }
       },
-      "Marten/7.30.3": {
+      "Marten/7.31.0": {
         "dependencies": {
           "JasperFx.CodeGeneration": "3.5.3",
           "JasperFx.Core": "1.7.2",
@@ -134,12 +135,12 @@
           "Polly.Core": "8.3.1",
           "System.Text.Json": "8.0.4",
           "System.Threading.Tasks.Dataflow": "8.0.0",
-          "Weasel.Postgresql": "7.11.5"
+          "Weasel.Postgresql": "7.11.6"
         },
         "runtime": {
           "lib/net8.0/Marten.dll": {
-            "assemblyVersion": "7.30.3.0",
-            "fileVersion": "7.30.3.0"
+            "assemblyVersion": "7.31.0.0",
+            "fileVersion": "7.31.0.0"
           }
         }
       },
@@ -877,27 +878,27 @@
       },
       "System.Threading.Channels/7.0.0": {},
       "System.Threading.Tasks.Dataflow/8.0.0": {},
-      "Weasel.Core/7.11.5": {
+      "Weasel.Core/7.11.6": {
         "dependencies": {
           "JasperFx.Core": "1.7.2"
         },
         "runtime": {
           "lib/net8.0/Weasel.Core.dll": {
-            "assemblyVersion": "7.11.5.0",
-            "fileVersion": "7.11.5.0"
+            "assemblyVersion": "7.11.6.0",
+            "fileVersion": "7.11.6.0"
           }
         }
       },
-      "Weasel.Postgresql/7.11.5": {
+      "Weasel.Postgresql/7.11.6": {
         "dependencies": {
           "Npgsql": "8.0.3",
           "Npgsql.NetTopologySuite": "8.0.3",
-          "Weasel.Core": "7.11.5"
+          "Weasel.Core": "7.11.6"
         },
         "runtime": {
           "lib/net8.0/Weasel.Postgresql.dll": {
-            "assemblyVersion": "7.11.5.0",
-            "fileVersion": "7.11.5.0"
+            "assemblyVersion": "7.11.6.0",
+            "fileVersion": "7.11.6.0"
           }
         }
       },
@@ -905,7 +906,6 @@
         "dependencies": {
           "FluentValidation": "11.10.0",
           "Mapster": "7.4.1-pre01",
-          "Marten": "7.30.3",
           "MediatR": "12.4.1",
           "Swashbuckle.AspNetCore": "6.9.0"
         },
@@ -994,12 +994,12 @@
       "path": "mapster.core/1.2.2-pre01",
       "hashPath": "mapster.core.1.2.2-pre01.nupkg.sha512"
     },
-    "Marten/7.30.3": {
+    "Marten/7.31.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MvWdXcgwIUU17mEbEHBJRb+2gPGLNQVqbIMQkx+T1IPFgMQ+/tV8/uAccC6haC95AqeMMc0+gEk5NDKSUfCmyw==",
-      "path": "marten/7.30.3",
-      "hashPath": "marten.7.30.3.nupkg.sha512"
+      "sha512": "sha512-WoPAQZJtKwc0Fbxo+gi50TG1a9lKWkM1U749A0bmvgomzjGjcrV5EenDN3nbxpuSSU5X86GzsP+FYHpAkps8WQ==",
+      "path": "marten/7.31.0",
+      "hashPath": "marten.7.31.0.nupkg.sha512"
     },
     "MediatR/12.4.1": {
       "type": "package",
@@ -1379,19 +1379,19 @@
       "path": "system.threading.tasks.dataflow/8.0.0",
       "hashPath": "system.threading.tasks.dataflow.8.0.0.nupkg.sha512"
     },
-    "Weasel.Core/7.11.5": {
+    "Weasel.Core/7.11.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-H/rAjiFwpSoMSinZ65kKITiyh7Y0Zpfj+Hm3IatEzLO1oO//pzDGKFOet1WxuhQnSGmtyyTEm2uE0eEN2UETNQ==",
-      "path": "weasel.core/7.11.5",
-      "hashPath": "weasel.core.7.11.5.nupkg.sha512"
+      "sha512": "sha512-O11XYl7ddNoX/J05LfcweS5aljsjVdycOkYyPE9RsxakK16eyuPa0CSvvO0fN4AL6o1fF9S1jCCbpva+b14B5g==",
+      "path": "weasel.core/7.11.6",
+      "hashPath": "weasel.core.7.11.6.nupkg.sha512"
     },
-    "Weasel.Postgresql/7.11.5": {
+    "Weasel.Postgresql/7.11.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-153WS1QRPWWuqqSruqplOeZ25jkckLJU+QRfj7BNk4GNszkKK4wq65dnsnw4lsbHxNFtC+Ww0cPjhMtco1jxKQ==",
-      "path": "weasel.postgresql/7.11.5",
-      "hashPath": "weasel.postgresql.7.11.5.nupkg.sha512"
+      "sha512": "sha512-JQvSP9m4DYssOv7lgXV9u+kTESt4M+U1L1yGZFgH7oLFT9nl6YodyvKlfqVPQe2i2f0aIl9kX9Dst7gVvO5xpg==",
+      "path": "weasel.postgresql/7.11.6",
+      "hashPath": "weasel.postgresql.7.11.6.nupkg.sha512"
     },
     "BuildingBlocks/1.0.0": {
       "type": "project",
