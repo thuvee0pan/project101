@@ -231,8 +231,7 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-/src/Services/Catalog/Catalog.API/bin/
 /src/.idea/
-/src/Services/Catalog/Catalog.API/obj/
-/src/BuildingBlocks/BuildingBlocks/bin/
-/src/BuildingBlocks/BuildingBlocks/obj/
+**/[Bb]in/
+**/[Oo]bj/
+
