@@ -10,7 +10,7 @@ public record UpdateProductCommand(
 
 public record UpdateProductResult(bool IsSuccess);
 
-public class UpdateProductCommandHandler(
+internal class UpdateProductCommandHandler(
     IDocumentSession session,
     ILogger<UpdateProductCommandHandler> logger
     ): ICommandHandler<UpdateProductCommand, UpdateProductResult>
